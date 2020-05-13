@@ -14,4 +14,4 @@ ZeroTierOne: VMs, and apps as if the whole world is one big cloud region!
 ZeroTierOne: ZeroTier virtual networks are like chat rooms for machines. Just
 ZeroTierOne: create virtual networks, join them from your devices and systems,
 ZeroTierOne: approve authorization for the things you've added, and you're
-ZeroTierOne: done!
+ZeroTierOne: done! Optional depencies: libnatpmp, miniupnpc (for UPnP support)
