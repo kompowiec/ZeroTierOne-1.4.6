@@ -86,4 +86,4 @@ if [ -d $PKG/usr/info ]; then
 fi
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$APP-$PKG_VERSION-$ARCH-$BUILD.tgz
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
