@@ -1,4 +1,10 @@
-maintain package for Slackware (tested on 14.2)
+Creates virtual Ethernet networks of almost unlimited size.
+
+# Optional depencies
+* miniupnpc
+* libnatpmp
+
+# Issues
 
 afther compilation and create package, you probably you can see message
 
