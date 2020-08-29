@@ -87,3 +87,7 @@ fi
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+
+#add to autostart
+chmod +x rc.zt
+cp rc.zt /etc/rc.d/rc.zt

@@ -12,4 +12,4 @@ afther compilation and create package, you probably you can see message
  
 so you must run (as root)
 
-> service zerotier-one start
+> /etc/rc.d/rc.zt start
