@@ -1,8 +1,8 @@
 Creates virtual Ethernet networks of almost unlimited size.
 
 # Optional depencies
-* miniupnpc
-* libnatpmp
+* [miniupnpc](slackbuilds.org/repository/14.2/libraries/miniupnpc/)
+* [libnatpmp](slackbuilds.org/repository/14.2/libraries/libnatpmp/)
 
 # Issues
 
