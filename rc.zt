@@ -1,12 +1,12 @@
 start_zt() {
-  if [ -x /usr/sbin/zerotier-cli ]; then
-    echo "Starting zerotier daemon:  /usr/sbin/zerotier-cli "
-    /usr/sbin/zerotier-cli -d 2> /dev/null
+  if [ -x /usr/sbin/zerotier-one ]; then
+    echo "Starting zerotier daemon:  /usr/sbin/zerotier-one "
+    /usr/sbin/zerotier-one -d 2> /dev/null
   fi
 }
 
 stop_zt() {
-  killall zerotier-cli 2> /dev/null
+  killall zerotier-one 2> /dev/null
 }
 
 restart_zt() {
